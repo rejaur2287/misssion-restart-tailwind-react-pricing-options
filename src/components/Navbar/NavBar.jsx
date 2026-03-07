@@ -45,9 +45,9 @@ const NavBar = () => {
           <Menu className="md:hidden"></Menu>
         )}
         <ul
-          className={`md:hidden absolute duration-1000 p-4 space-y-2
-             ${open ? "top-8" : "-top-40"}
-              bg-amber-200 text-black`}
+          className={`md:hidden absolute duration-1000 text-black
+                    ${open ? "top-8" : "-top-40"}
+                    bg-amber-200`}
         >
           {links}
         </ul>
